@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2bc3ff;
+}
+
+.bird {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.body {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    border-top-right-radius: 75px;
+    border-top-left-radius: 75px;
+    position: relative;
+}
+
+.eye {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.beak {
+    width: 0;
+    height: 0px;
+    border-top: 50px solid transparent;
+    border-left: 50px solid yellow;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 20%;
+    left: 100%;
+}
