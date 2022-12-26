@@ -8,7 +8,7 @@ cellElements.forEach(cell => {
 });
 
 function handleClick() {
-
+  const cell = e.target;
 }
 
 
